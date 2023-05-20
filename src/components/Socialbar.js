@@ -1,27 +1,30 @@
 import React from 'react'
 import {Link} from "react-router-dom";
 import styled from '@emotion/styled';
-import "../styles/Socialbar.css"
-
 function Socialbar() {
   
-    const Socialbar = styled.div `
-        font-size: 30px;
-        font-family: Helvetica, Arial, sans-serif;
-        display: flex;
-        width: 50%;
-        padding-left: 28%;
-        justify-content: space-between;
-     `
+   const Socialbar = styled.div `
+        
+     
+      a {
+         color: white;
+         font-size: 30px;
+         font-family: Helvetica, Arial, sans-serif;
+         padding-left: 50px;
+      }
+      a:hover {
+         color:#33ff33;
+      }  
+   `
 
   return (
-    <div className="socialbar">
+    <Socialbar className="socialbar">
        <div>
         <Link to="https://github.com/jxngo" target="_blank">{'>'}github</Link>
         <Link to="https://www.linkedin.com/in/johnnyhngo/" target="_blank">{'>'}linkedin</Link>
         <Link to="https://www.instagram.com/jzngo/" target="_blank">{'>'}instagram</Link>
        </div>
-    </div>
+    </Socialbar>
   )
 }
 

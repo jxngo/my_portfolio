@@ -1,20 +1,32 @@
 import React from 'react'
 import {Link} from "react-router-dom";
-import "../styles/Navbar.css"
-
+import styled from "@emotion/styled";
 
 
 function Navbar() {
+  const NavBar = styled.div `
+    a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 40px;
+      font-family: Helvetica, Arial, sans-serif;
+    }
+
+    a:hover {
+      color:#33ff33;
+    }
+  `
+
 
   return (
-    <div className="navbar">
+    <NavBar className="navbar">
         <div>
             <Link to="/"> About/</Link>
             <Link to="/projects"> Projects/ </Link>
             <Link to="/experiences"> Experiences/ </Link>
         </div>
-
-    </div>
+    </NavBar>
   )
 }
 

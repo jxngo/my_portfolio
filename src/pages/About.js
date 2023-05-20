@@ -6,7 +6,7 @@ import Socialbar from '../components/Socialbar';
 function About() {
   const H1 = styled.h1 `
     color: #33ff33;
-    font-size: 150px;
+    font-size: 130px;
     padding-right: 51.5%;
     margin-bottom: 35px;
     font-family: Helvetica, Arial, sans-serif;
@@ -14,13 +14,12 @@ function About() {
 
   const Prompt = styled.p `
     width: 80%;
-    margin-left: 240px;
+    margin-left: 180px;
     text-align: justify;
-    font-size: 40px;
+    font-size: 30px;
     font-family: Helvetica, Arial, sans-serif;
     color: white;
   `
-
 
   return (
     <div>
@@ -40,10 +39,9 @@ function About() {
         </Prompt>
 
         <Prompt>
-        During his leisure time, Johnny engages in creative pursuits such as such as fashion, music. 
+        During his leisure time, Johnny engages in creative pursuits such as art, fashion, and music. 
         His passion in music and technology allows him to enjoy playing his classical guitar, 
         collect vinyls records, and creating electronic ambient music through coding.</Prompt>
-    
       <Socialbar></Socialbar>
     </div>
   )
