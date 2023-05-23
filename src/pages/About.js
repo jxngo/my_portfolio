@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from "@emotion/styled";
 import Socialbar from '../components/Socialbar';
+import Resume from '../components/Resume';
+
 
 
 function About() {
@@ -11,6 +13,7 @@ function About() {
     margin-bottom: 35px;
     font-family: Helvetica, Arial, sans-serif;
   `
+  
 
   const Prompt = styled.p `
     width: 80%;
@@ -20,6 +23,20 @@ function About() {
     font-family: Helvetica, Arial, sans-serif;
     color: white;
   `
+
+  const FlexContainer = styled.div `
+    display: flex;
+
+    h2 {
+    color: #33ff33;
+    font-size: 80px;
+    font-family: Helvetica, Arial, sans-serif;
+    }
+  `
+  const FlexChild = styled.div `
+    flex: 1;
+  `
+
 
   return (
     <div>
@@ -42,8 +59,21 @@ function About() {
         During his leisure time, Johnny engages in creative pursuits such as art, fashion, and music. 
         His passion in music and technology allows him to enjoy playing his classical guitar, 
         collect vinyls records, and creating electronic ambient music through coding.</Prompt>
-      <Socialbar></Socialbar>
+
+        <FlexContainer>
+          <FlexChild>
+            <Resume/>
+          </FlexChild>
+
+          <FlexChild>
+            <h2>{'>'}Contact</h2>
+            <Socialbar></Socialbar>
+          </FlexChild>
+        </FlexContainer>
+            
+       
     </div>
+    
   )
 }
 

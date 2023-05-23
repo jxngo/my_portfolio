@@ -1,0 +1,7 @@
+.react-pdf__Page__canvas {
+  margin-top: 100px;
+  margin-left: 180px;
+  margin-bottom: 80px;
+  box-shadow: 40px -30px teal;
+  border-radius: 15px;
+}
