@@ -3,41 +3,34 @@ import styled from "@emotion/styled";
 import Socialbar from '../components/Socialbar';
 import Resume from '../components/Resume';
 
-
-
 function About() {
-  const H1 = styled.h1 `
-    color: #33ff33;
-    font-size: 130px;
-    padding-right: 51.5%;
-    margin-bottom: 35px;
-    font-family: Helvetica, Arial, sans-serif;
-  `
   
+  const H1 = styled.h1 `
+    padding-left: 7rem;
+    color: #33ff33;
+    font-size: 11rem;
+    margin-bottom: 5rem;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 2rem;
 
+    @media (min-width: 1180px) {
+      font-size: 8.125rem;
+    }
+
+  `
   const Prompt = styled.p `
-    width: 80%;
-    margin-left: 180px;
-    text-align: justify;
-    font-size: 30px;
+    padding-left: 7rem;
+    width: 60rem;
+    text-align: left;
+    font-size: 3rem;
     font-family: Helvetica, Arial, sans-serif;
     color: white;
-  `
 
-  const FlexContainer = styled.div `
-    display: flex;
-
-    h2 {
-    color: #33ff33;
-    font-size: 80px;
-    font-family: Helvetica, Arial, sans-serif;
+    @media (min-width: 1180px) {
+      width: 90rem;
+      font-size: 1.875rem;
     }
   `
-  const FlexChild = styled.div `
-    flex: 1;
-  `
-
-
   return (
     <div>
       <H1>{'>'}About</H1> 
@@ -48,30 +41,20 @@ function About() {
         </Prompt>
         
         <Prompt>
-        Throughout his academic years, Johnny Ngo has worked on multitude of software development projects. One notable achievement 
-        was the creation of an award-winning computer science learning tool specifically designed for students studying Computer Science
-        at University of Central Florida. In addition, Johnny has worked on different projects involving front-end and back-end 
-        development. Furthermore, he showcased his leadership abilities by leading a team of five undergraduate researchers in a Computer Science
-        research project focused on concurrent algorithmic study. 
+          Throughout his academic years, Johnny Ngo has worked on multitude of software development projects. One notable achievement 
+          was the creation of an award-winning computer science learning tool specifically designed for students studying Computer Science
+          at University of Central Florida. In addition, Johnny has worked on different projects involving front-end and back-end 
+          development. Furthermore, he showcased his leadership abilities by leading a team of five undergraduate researchers in a Computer Science
+          research project focused on concurrent algorithmic study. 
         </Prompt>
 
         <Prompt>
-        During his leisure time, Johnny engages in creative pursuits such as art, fashion, and music. 
-        His passion in music and technology allows him to enjoy playing his classical guitar, 
-        collect vinyls records, and creating electronic ambient music through coding.</Prompt>
-
-        <FlexContainer>
-          <FlexChild>
-            <Resume/>
-          </FlexChild>
-
-          <FlexChild>
-            <h2>{'>'}Contact</h2>
-            <Socialbar></Socialbar>
-          </FlexChild>
-        </FlexContainer>
-            
-       
+          During his leisure time, Johnny engages in creative pursuits such as art, fashion, and music. 
+          His passion in music and technology allows him to enjoy playing his classical guitar, 
+          collect vinyls records, and creating electronic ambient music through coding.
+        </Prompt>
+        <Resume/>
+        <Socialbar></Socialbar>
     </div>
     
   )

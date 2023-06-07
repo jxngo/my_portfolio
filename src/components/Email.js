@@ -6,6 +6,7 @@ function Email({ mailto, label}) {
     <Link
         to ='#'
         onClick={(e) => {
+            console.log(mailto);
             window.location.href = mailto;
             e.preventDefault();
         }}
