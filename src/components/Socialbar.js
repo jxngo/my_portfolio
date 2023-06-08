@@ -7,7 +7,6 @@ function Socialbar() {
   
    const Socialbar = styled.div `
       h1 {
-        
          width: 34rem;
          padding-left: 1rem;
          margin-right: 25rem;
