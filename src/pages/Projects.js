@@ -60,8 +60,8 @@ function Projects() {
       <FlexContainer>
         <FlexChild>
           <Header>Web</Header>
-          <p>Languages: JavaScript, HTML/CSS, SQL</p>
-          <p>Frameworks & Libraries: React.js, Node.js, Express.js, D3.js, Jest.js</p>
+          <p>Languages: Java, JavaScript, HTML/CSS, SQL</p>
+          <p>Frameworks & Libraries: React.js, Node.js, Express.js, D3.js, Jest.js, Fork/Join(JUC), Recursive Action</p>
           <p>Tools: Git, MongoDB, Jira, Visual Studio Code</p>
           <ProjectContainer>
             {ProjectList.map((project) => {
