@@ -35,23 +35,23 @@ function About() {
     <div>
       <H1>{'>'}About</H1> 
         <Prompt className='prompt'>
-          <b>Johnny Ngo</b>, a Vietnamese Software Engineer, was born in Garden City, 
-          KS and based in Orlando, FL. He holds a Bachelor’s degree in Computer Science 
-          from University of Central Florida.  
+          My name is <b>Johnny Ngo</b>, I'm a Vietnamese Software Engineer, who was born in Garden City, 
+          KS and is currently based in Orlando, FL. I graduated with a Bachelor of Science in Computer Science 
+          from the University of Central Florida.  
         </Prompt>
         
         <Prompt>
-          Throughout his academic years, Johnny Ngo has worked on multitude of software development projects. One notable achievement 
+          Throughout my academic years, I have worked on a multitude of software development projects. One notable achievement 
           was the creation of an award-winning computer science learning tool specifically designed for students studying Computer Science
-          at University of Central Florida. In addition, Johnny has worked on different projects involving front-end and back-end 
-          development. Furthermore, he showcased his leadership abilities by leading a team of five undergraduate researchers in a Computer Science
+          at the University of Central Florida. In addition, I have worked on different projects involving front-end and back-end 
+          development. Furthermore, I led a team of five undergraduate researchers in a Computer Science
           research project focused on concurrent algorithmic study. 
         </Prompt>
 
         <Prompt>
-          During his leisure time, Johnny engages in creative pursuits such as art, fashion, and music. 
-          His passion in music and technology allows him to enjoy playing his classical guitar, 
-          collect vinyls records, and creating electronic ambient music through coding.
+          In my free time, I engage in various creative pursuits such as art, fashion, and music. 
+          My passion in music and technology allows me to create electronic ambient music through coding. 
+          I enjoy playing my classical guitar, collecting vinyl records, and making playlists! 
         </Prompt>
        
         <Socialbar></Socialbar>
