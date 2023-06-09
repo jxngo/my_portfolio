@@ -4,14 +4,16 @@ import styled from "@emotion/styled";
 function Experiences() {
   const H1 = styled.h1 `
     color: #33ff33;
-    font-size: 6rem;
-    padding-left: 8rem;
-    padding-top: 3rem;
+    font-size: 6.2rem;
+    padding-left: 7rem;
+    padding-top: 5rem;
+    padding-right: 45rem;
     font-family: Helvetica, Arial, sans-serif;
+    
     @media (min-width: 1180px) {
-      font-size: 8rem;
-      padding-right: 30rem;
-      padding-top: 1rem;
+      font-size: 8.125rem;
+     
+      padding-top: 0rem;
       padding-left: 7rem;
     }
 `

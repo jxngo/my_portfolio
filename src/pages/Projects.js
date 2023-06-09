@@ -12,10 +12,12 @@ function Projects() {
     font-size: 9.1rem;
     padding-left: 7rem;
     margin-bottom: 5rem;
+    padding-top: 2rem;
     width: 2rem;
     font-family: Helvetica, Arial, sans-serif;
     @media (min-width: 1180px) {
       font-size: 8.125rem;
+      padding-top: 0rem;
     }
   `
   const FlexContainer = styled.div `

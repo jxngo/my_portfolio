@@ -35,16 +35,16 @@ function About() {
     <div>
       <H1>{'>'}About</H1> 
         <Prompt className='prompt'>
-          My name is <b>Johnny Ngo</b>, I'm a Vietnamese Software Engineer, who was born in Garden City, 
-          KS and is currently based in Orlando, FL. I graduated with a Bachelor of Science in Computer Science 
+          My name is <b>Johnny Ngo</b>. I'm a Vietnamese Software Engineer
+          currently based in Orlando, Florida. I graduated with a Bachelor of Science in Computer Science 
           from the University of Central Florida.  
         </Prompt>
         
         <Prompt>
           Throughout my academic years, I have worked on a multitude of software development projects. One notable achievement 
           was the creation of an award-winning computer science learning tool specifically designed for students studying Computer Science
-          at the University of Central Florida. In addition, I have worked on different projects involving front-end and back-end 
-          development. Furthermore, I led a team of five undergraduate researchers in a Computer Science
+          at the University of Central Florida. I have worked on different projects involving front-end and back-end 
+          development. In addition, I led a team of five undergraduate researchers in a Computer Science
           research project focused on concurrent algorithmic study. 
         </Prompt>
 

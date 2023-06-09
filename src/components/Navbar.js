@@ -7,7 +7,7 @@ function Navbar() {
   const NavBar = styled.div `
     position: absolute;
     left: 50rem;
-    padding-right: 5%;
+    padding-right: 2rem;
     
     a {
       color: white;
