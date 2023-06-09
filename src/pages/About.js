@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from "@emotion/styled";
 import Socialbar from '../components/Socialbar';
-import Resume from '../components/Resume';
+
 
 function About() {
   
@@ -53,7 +53,7 @@ function About() {
           His passion in music and technology allows him to enjoy playing his classical guitar, 
           collect vinyls records, and creating electronic ambient music through coding.
         </Prompt>
-        <Resume/>
+       
         <Socialbar></Socialbar>
     </div>
     

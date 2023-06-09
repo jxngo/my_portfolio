@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from "react-router-dom";
 import styled from '@emotion/styled';
-import Email from './Email';
+
 
 function Socialbar() {
   
@@ -42,7 +42,7 @@ function Socialbar() {
     <Socialbar>
         <h1>{'>'}Contact</h1>
         <h2>Email/
-            <Email label="johnnyhoangngo@gmail.com" mailto="mailto:johnnyhoangngo@gmail.com"></Email>
+            <a>johnnyhoangngo@gmail.com</a>
         </h2>
         <h2>Social Media/
             <Link to="https://github.com/jxngo" target="_blank">github</Link>
