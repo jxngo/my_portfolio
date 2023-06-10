@@ -34,6 +34,14 @@ function Socialbar() {
          text-decoration: none;
          
       }
+      strong {
+         color: white;
+         font-size: 2rem;
+         font-family: Helvetica, Arial, sans-serif;
+         padding-left: 2rem;
+         padding-bottom: 3.125rem;
+         text-decoration: none;
+      }
       a:hover {
          color:#33ff33;
       }  
@@ -42,7 +50,7 @@ function Socialbar() {
     <Socialbar>
         <h1>{'>'}Contact</h1>
         <h2>Email/
-            <a>johnnyhoangngo@gmail.com</a>
+            <strong>johnnyhoangngo@gmail.com</strong>
         </h2>
         <h2>Social Media/
             <Link to="https://github.com/jxngo" target="_blank">github</Link>
