@@ -43,7 +43,7 @@ function Projects() {
     font-family: Helvetica, Arial, sans-serif;
   `
   const Header = styled.h2 `
-    font-size: 3.125rem;
+    font-size: 4rem;
     padding-left: 22rem;
     width: 30rem;
     @media (min-width: 1180px) {
@@ -62,12 +62,9 @@ function Projects() {
       <FlexContainer>
         <FlexChild>
           <Header>Web</Header>
-          <p>Languages: Java, JavaScript, HTML/CSS, SQL</p>
-          <p>Frameworks & Libraries: React.js, Node.js, Express.js, D3.js, Jest.js, Fork/Join(JUC), Recursive Action</p>
-          <p>Tools: Git, MongoDB, Jira, Visual Studio Code</p>
           <ProjectContainer>
             {ProjectList.map((project) => {
-              return <ProjectItem name={project.name} image={project.image}/>;
+              return <ProjectItem name={project.name} image={project.image} description={project.description} technology={project.technology}/>;
             })}
           </ProjectContainer>
         </FlexChild>

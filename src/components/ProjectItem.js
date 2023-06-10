@@ -1,38 +1,50 @@
 import React from 'react'
 import styled from '@emotion/styled';
 
-function ProjectItem({image, name}) {
+function ProjectItem({image, name, description, technology}) {
   const ProjectItem = styled.div `
     border-radius: 1.25rem;
-    width: 28.125rem;
+    width: 35rem;
     height: 25rem;
-    margin: 2.5rem;
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    padding-bottom: 10rem;
+    margin-bottom: 10rem;
+    
     
     h1 {
-      font-size: 1.5625rem;
+      font-size: 3rem;
       font-family: Helvetica, Arial, sans-serif;
     }
 
     .bgImage { 
-        width: 100%;
-        height: 100%;
+        width: 35rem;
+        height: 25rem;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
-
-    &:hover {
-      box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
-      transition: 0.3s ease-in;
-      cursor: pointer;
+  `
+  const InfoDiv = styled.div `
+    padding-top: 0rem;
+    h3 {
+      font-size: 1.8rem;
+      font-family: Helvetica, Arial, sans-serif;
     }
+    body {
+      padding-bottom: 2rem;
+      font-size: 1.5rem;
+      font-family: Helvetica, Arial, sans-serif;
+    }
+  
   `
   return (
     <ProjectItem className='projectItem'>
-        <div style={{backgroundImage: `url(${image})`}} className="bgImage">
-            <h1>{name}</h1>
-        </div>
+        <h1>{name}</h1>
+        <div style={{backgroundImage: `url(${image})`}} className="bgImage"></div>
+        <InfoDiv>
+          <h3>{technology}</h3>
+          <body>{description}</body>
+          
+        </InfoDiv>
     </ProjectItem>
   )
 }

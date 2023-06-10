@@ -48,6 +48,7 @@ function Socialbar() {
             <Link to="https://github.com/jxngo" target="_blank">github</Link>
             <Link to="https://www.linkedin.com/in/johnnyhngo/" target="_blank">linkedin</Link>
             <Link to="https://www.instagram.com/jzngo/" target="_blank">instagram</Link>
+            <Link to="https://open.spotify.com/user/jzngo?si=b23d3566f7184ced" target="_blank">spotify</Link>
         </h2>
     </Socialbar>
   )
