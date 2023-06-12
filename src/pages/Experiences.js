@@ -2,6 +2,7 @@ import React from 'react'
 import styled from "@emotion/styled";
 
 function Experiences() {
+
   const H1 = styled.h1 `
     color: #33ff33;
     font-size: 6.2rem;
@@ -22,6 +23,8 @@ function Experiences() {
 
   return (
     <H1>{'>'}Experiences</H1>
+    
+    
   )
 }
 

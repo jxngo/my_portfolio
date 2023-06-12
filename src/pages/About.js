@@ -124,8 +124,6 @@ function About() {
 
           </div>
         </SkillDiv>
-        
-
         <Socialbar></Socialbar>
     </div>
     
