@@ -13,7 +13,7 @@ function Introduction() {
     }
     h3 {
         color: #372E2D;
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-family: Helvetica, Arial, sans-serif;
       }
     
@@ -47,7 +47,7 @@ function Introduction() {
      <IntroContainer>
        <img src={speaker} alt="speaker"></img>
        <IntroDiv>
-        <h1>Hi! I'm Johnny</h1>
+        <h1>Hi! I'm Johnny Ngo</h1>
         <h3>Software Engineer | Audio & Visual</h3>
        </IntroDiv>
      
