@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import ProjectItem from '../components/ProjectItem';
-import {ProjectList} from '../helpers/ProjectList';
+
 
 // import image_name from '../assets/image_name.jpg'
 
