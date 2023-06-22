@@ -11,13 +11,13 @@ function Introduction() {
         font-size: 5rem;
         font-family: Helvetica, Arial, sans-serif;
         margin-bottom: 0;
-        padding-left: 3rem;
+        padding-left: 7rem;
     }
     h3 {
         color: #372E2D;
         font-size: 1rem;
         font-family: Helvetica, Arial, sans-serif;
-        padding-left: 3rem;
+        padding-left: 5rem;
       }
     p {
       margin-top: 2rem;
@@ -38,13 +38,21 @@ function Introduction() {
       }
     }
     button {
+      box-shadow: 0px -2px 1px 2px #1c1c1c;
       margin-top: 3rem;
       width: 15rem;
       height: 15rem;
       border-radius: 10%;
       background-color: #AAB7BF;
       border: none;
-      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      
+    }
+    span {
+      height: 13rem;
+      width: 13rem;
+      background: linear-gradient(#99a4ab 65%, #d4dbdf);
+      border-radius: 50%;
+      display: inline-block;
     }
   `
   const IntroDiv = styled.div `
@@ -63,6 +71,7 @@ function Introduction() {
         <ButtonDiv>
           <a href="/resume/JNResume.pdf" download>
             <button>
+              <span></span>
             </button>
           </a>
         </ButtonDiv>

@@ -6,6 +6,7 @@ function Navbar() {
   `
   
   const NavBar = styled.div `
+    
     ul {
       list-style-type: none;
       display: flex;    
@@ -14,7 +15,6 @@ function Navbar() {
       padding: 1rem;
     }
     button {
-      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
       border: none;
       border-radius: 50%;
       padding: 1rem;
@@ -30,7 +30,7 @@ function Navbar() {
   `
     const LabelDiv = styled.div`
       ul {
-        display: flex;
+        
         margin-right: 2.8rem;
       }
       li {
@@ -45,29 +45,37 @@ function Navbar() {
     `
     const Button1 = styled.button`
       background: #Ed8008;
+      
+      box-shadow: 3px -3px 1px 1px #1c1c1c;
       a {
+        
         background: #Ed8008;
       }
     `
     const Button2 = styled.button`
       background: #ED3F1C;
+      box-shadow: 3px -1px 1px 2px #1c1c1c;
       a {
         background: #ED3F1C;
+        
       }
     `
     const Button3 = styled.button`
       background: #BF1B1B;
+      box-shadow: 0px -4px 1px 2px #1c1c1c;
       a {
         background: #BF1B1B;
       }
     `
     const Button4 = styled.button`
       background: #736B1E;
+      box-shadow: -3px -3px 1px 2px #1c1c1c;
       a {
         background: #736B1E;
       }
     `
     const Button5 = styled.button`
+      box-shadow: -3px -3px 1px 1px #1c1c1c;
       background: #736356;
       a {
         background: #736356;
