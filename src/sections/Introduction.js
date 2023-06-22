@@ -5,17 +5,18 @@ import speaker from '../assets/speaker.png';
 
 function Introduction() {
   const IntroContainer = styled.div`
+    
     padding-top: 5rem;
     h1 {
         color: #372E2D;
-        font-size: 5rem;
+        font-size: 4rem;
         font-family: Helvetica, Arial, sans-serif;
         margin-bottom: 0;
-        padding-left: 7rem;
+        padding-left: 5rem;
     }
     h3 {
         color: #372E2D;
-        font-size: 1rem;
+        font-size: 0.7rem;
         font-family: Helvetica, Arial, sans-serif;
         padding-left: 5rem;
       }
