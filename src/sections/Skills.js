@@ -18,7 +18,7 @@ function Skills() {
         padding-left: 3rem;
         font-family: Helvetica, Arial, sans-serif;
         color: #4b4342;
-        font-size: 2rem;
+        font-size: 1rem;
     }
     
     @media (min-width: 1180px) {

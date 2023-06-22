@@ -8,7 +8,7 @@ import About from './sections/About';
 import Skills from './sections/Skills';
 
 function App() {
-
+  
 
   return (
     <div className="App">

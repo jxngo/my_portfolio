@@ -6,21 +6,19 @@ function Experiences() {
     h1 {
       text-align: left;
       color: #736B1E;
-      font-size: 8.5rem;
+      font-size: 10rem;
       font-family: Helvetica, Arial, sans-serif;
       padding-left: 3rem;
       margin-bottom: 3rem;
     }
-    strong {
-      font-size: 10rem;
-    }
+    
   
   `
     
 
   return (
     <ExperiencesContainer>
-      <h1><strong>{'>'}</strong>Experiences</h1> 
+      <h1>{'>'}Work</h1> 
     </ExperiencesContainer>
     
   )
