@@ -21,7 +21,7 @@ function Introduction() {
       }
     p {
       margin-top: 2rem;
-      font-size: 0.4rem;
+      font-size: 0.7rem;
       font-family: Akzidenz Grotesk, Arial, sans-serif;
     }
     
