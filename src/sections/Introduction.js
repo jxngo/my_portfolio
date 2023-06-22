@@ -75,7 +75,6 @@ function Introduction() {
             </button>
           </a>
         </ButtonDiv>
-        
        </IntroDiv>
        <p>Download CV</p>
      

@@ -38,7 +38,7 @@ function Navbar() {
         padding: 0rem;
       }
       text{
-        font-size: 1.1rem;
+        font-size: 1.5rem;
         font-family: Akzidenz Grotesk, Arial, sans-serif;
       }
     
