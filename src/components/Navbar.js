@@ -41,11 +41,11 @@ function Navbar() {
   const LabelDiv = styled.div`
     margin-top: 4rem; 
     ul {
-      margin-left: 2rem;
+      margin-left: 2.6rem;
       display: inline;
     }
     li {
-      padding-right: 4.8rem;
+      margin-right: 4rem;
       display: inline;
     }
     text{
