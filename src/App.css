@@ -1,6 +1,11 @@
 * {
   background-color: #EDE6DC;
-  
+
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("assets/fonts/Satoshi-Regular.otf");
 }
 
 

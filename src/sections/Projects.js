@@ -11,9 +11,10 @@ function Projects() {
       text-align: left;
       color: #BF1B1B;
       font-size: 10em;
-      font-family: Helvetica, Arial, sans-serif;
+      font-family: Satoshi;
       padding-left: 3rem;
       margin-bottom: 3rem;
+      text-shadow: 2px 2px #000000;
     }
 
     h2 {
@@ -34,7 +35,7 @@ function Projects() {
       flex: 1;
     } 
     color: white;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Satoshi;
   `
   const ProjectContainer = styled.div `
   

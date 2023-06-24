@@ -7,20 +7,16 @@ function Experiences() {
       text-align: left;
       color: #736B1E;
       font-size: 10rem;
-      font-family: Helvetica, Arial, sans-serif;
+      font-family: Satoshi;
       padding-left: 3rem;
       margin-bottom: 3rem;
+      text-shadow: 2px 2px #000000;
     }
-    
-  
   `
-    
-
   return (
     <ExperiencesContainer>
       <h1>{'>'}Work</h1> 
     </ExperiencesContainer>
-    
   )
 }
 

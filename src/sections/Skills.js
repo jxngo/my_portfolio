@@ -7,23 +7,30 @@ function Skills() {
     h1 {
         color: #ED3F1C;
         font-size: 10rem;
-        font-family: Helvetica, Arial, sans-serif;
+        font-family: Satoshi;
         padding-left: 3rem;
         margin-bottom: 3rem;
+        text-shadow: 2px 2px #000000;
     }
   
   `
   const SkillsDiv = styled.div `
     body{
         padding-left: 3rem;
-        font-family: Helvetica, Arial, sans-serif;
+        font-family: Satoshi;
         color: #4b4342;
-        font-size: 3rem;
-       
+        font-size: 1rem;
+        
+        @media screen and (max-width: 500px) {
+          font-size: 3rem;
+        }
     }
+
+    
     
     @media (min-width: 1180px) {
         display: fixed;
+        font-size: 3rem;
     }
 
     progress {

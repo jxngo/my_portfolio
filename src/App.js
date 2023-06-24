@@ -6,10 +6,9 @@ import Navbar from './components/Navbar';
 import Introduction from './sections/Introduction';
 import About from './sections/About';
 import Skills from './sections/Skills';
+import styled from "@emotion/styled";
 
 function App() {
-  
-
   return (
     <div className="App">
     <header><Navbar></Navbar></header>

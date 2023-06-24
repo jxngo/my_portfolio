@@ -1,14 +1,15 @@
 import React from 'react'
 import styled from "@emotion/styled";
 import speaker from '../assets/speaker.png';
-import Github_logo from '../assets/github.svg';
-import Linkedin_logo from '../assets/linkedin.svg';
-import Instagram_logo from '../assets/instagram.svg';
-import Spotify_logo from '../assets/spotify.svg';
+import Github_logo from '../assets/social-icons/github.svg';
+import Linkedin_logo from '../assets/social-icons/linkedin.svg';
+import Instagram_logo from '../assets/social-icons/instagram.svg';
+import Spotify_logo from '../assets/social-icons/spotify.svg';
 
 function Navbar() {
   const NavContainer = styled.div `
     margin-top: 3rem;
+    font-family: Satoshi;
   `
   const SpeakerDiv = styled.div`
     img {
@@ -38,16 +39,18 @@ function Navbar() {
     }
   `
   const LabelDiv = styled.div`
-    margin-top: 4rem;
+    margin-top: 4rem; 
     ul {
-      margin-right: 3rem;
+      margin-left: 2rem;
+      display: inline;
     }
     li {
-      width: 40%;
+      padding-right: 4.8rem;
+      display: inline;
     }
     text{
-      font-size: 1.5rem;
-      font-family: Akzidenz Grotesk, Arial, sans-serif;
+      font-size: 0.6rem;
+      font-family: Satoshi;
     }
   `
   const Button1 = styled.button`
@@ -92,11 +95,11 @@ function Navbar() {
       flex: 1;
       p {
         font-size: 1.8rem;
-        font-family: Akzidenz Grotesk, Arial, sans-serif;
+        font-family: Satoshi;
       }
       button {
-        box-shadow: 0px -3px 4px 2px #1c1c1c;
-        margin-top: 1.5rem;
+        box-shadow: 0px -1px 5px 2px #1c1c1c;
+         margin-top: 1.5rem;
         width: 13rem; 
         height: 13rem;
         border-radius: 10%;
@@ -114,35 +117,46 @@ function Navbar() {
   const SocialDiv = styled.div`
       flex: 1;
       margin-top: 3rem;
-      
       div {
-        margin-top: 7rem;
+        margin-top: 2.5rem;
         margin-left: 5rem;
         width: 32.8rem;
         height: 8.1rem;
         border: 0.1rem solid #1c1c1c;
         border-radius: 1rem;
-        position: relative
-        box-shadow: 1px -1px 3px 3px #1c1c1c;
+        position: relative;
+        box-shadow: 0px -2px 2px 1px #1c1c1c;
         background-color: #454545;
       }
       button {
-        margin-left: 0.1rem;
-        margin-right: 0.1rem;
-        box-shadow: 0px 0px 5px 2px #1c1c1c;
+        margin: 0rem 0.1rem;
         width: 8rem;
         height: 8rem;
         border-radius: 10%;
-        background-color: #B7B183;
-        border: 1px solid #888;;
+        background-color: #315B7B;
+        border: 1px solid #888;
+      }
+      span {
+        height: 6rem;
+        width: 6rem;
+        background: linear-gradient(#2c516e 65%, #5a7b95);
+        border-radius: 50%;
+        display: inline-block;
       }
       a {
-        background-color: #B7B183;
+        background-color: #315B7B;
       }
       img {
         width: 4rem;
         border-radius: 50%;
-        background-color: #DBD7D3;
+      }
+      ul {
+        display: inline;
+        margin-right: 1.8rem;
+      }
+      li {
+        display: inline;
+        padding-left: 4rem;
       }
     `
   return (
@@ -150,7 +164,6 @@ function Navbar() {
       <SpeakerDiv>
         <img src={speaker} alt="speaker"></img>
       </SpeakerDiv>
-
       <NavBar>
         <LabelDiv>
           <ul>
@@ -171,29 +184,26 @@ function Navbar() {
           </ul>
         </div>
       </NavBar>
-
       <FlexContainer>
         <SocialDiv>
+          <ul>
+              <li> <img src={Github_logo} alt='github'></img></li>
+              <li> <img src={Linkedin_logo} alt='linkedin'></img></li>
+              <li> <img src={Instagram_logo} alt='instagram'></img></li>
+              <li> <img src={Spotify_logo} alt='spotify'></img></li>
+          </ul>
           <div>
             <button>
-              <a href="https://github.com/jxngo" target="_blank" rel="noopener noreferrer">
-                <img src={Github_logo} alt='github'></img>
-              </a>
+              <a href="https://github.com/jxngo" target="_blank" rel="noopener noreferrer"><span></span></a>
             </button>
             <button>
-              <a href="https://www.linkedin.com/in/johnnyhngo/" target="_blank" rel="noopener noreferrer">
-                <img src={Linkedin_logo} alt='linkedin'></img>
-              </a>
+              <a href="https://www.linkedin.com/in/johnnyhngo/" target="_blank" rel="noopener noreferrer"><span></span></a>
             </button>
             <button>
-              <a href="https://www.instagram.com/jzngo/" target="_blank" rel="noopener noreferrer">
-                <img src={Instagram_logo} alt='instagram'></img>
-              </a>
+              <a href="https://www.instagram.com/jzngo/" target="_blank" rel="noopener noreferrer"><span></span></a>
             </button>
             <button>
-              <a href="https://open.spotify.com/user/jzngo?si=b23d3566f7184ced" target="_blank" rel="noopener noreferrer">
-                <img src={Spotify_logo} alt='spotify'></img>
-              </a>
+              <a href="https://open.spotify.com/user/jzngo?si=b23d3566f7184ced" target="_blank" rel="noopener noreferrer"><span></span></a>
             </button>
           </div>
         </SocialDiv>
