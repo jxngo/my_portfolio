@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 
 function About() {
   const AboutContainer = styled.div`
-   
+    margin-top: 10rem;
     text-align: left;
     h1 {
       margin-top: 2rem;
