@@ -41,7 +41,7 @@ function Navbar() {
   const LabelDiv = styled.div`
     margin-top: 4rem; 
     ul {
-      margin-left: 2.4rem;
+      margin-left: 2rem;
       display: inline;
     }
     li {
