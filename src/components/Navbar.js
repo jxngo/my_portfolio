@@ -41,15 +41,15 @@ function Navbar() {
   const LabelDiv = styled.div`
     margin-top: 4rem; 
     ul {
-      margin-left: 2.6rem;
+      margin-right: 1rem;
       display: inline;
     }
     li {
-      margin-right: 4rem;
+      padding: 0rem 2.5rem;     
       display: inline;
     }
     text{
-      font-size: 1.9rem;
+      font-size: 0.7rem;
       font-family: Satoshi;
     }
   `
@@ -92,9 +92,10 @@ function Navbar() {
       display: flex;
   `
   const ButtonDiv = styled.div`
+      margin-top: 2rem;
       flex: 1;
-      p {
-        font-size: 1.8rem;
+      text {
+        font-size: 2rem;
         font-family: Satoshi;
       }
       button {
@@ -209,7 +210,7 @@ function Navbar() {
         </SocialDiv>
         <ButtonDiv>
           <div>
-            <p>Download CV</p>
+            <text>Download CV</text>
             <a href="/resume/JNResume.pdf" download>
               <button>
                 <span></span>

@@ -19,7 +19,7 @@ function Skills() {
         padding-left: 3rem;
         font-family: Satoshi;
         color: #4b4342;
-        font-size: 3rem;
+        font-size: 1rem;
     }
 
     
