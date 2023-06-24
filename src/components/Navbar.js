@@ -41,7 +41,7 @@ function Navbar() {
   const LabelDiv = styled.div`
     margin-top: 4rem; 
     ul {
-      margin-left: 2rem;
+      margin-left: 2.4rem;
       display: inline;
     }
     li {
@@ -49,7 +49,7 @@ function Navbar() {
       display: inline;
     }
     text{
-      font-size: 0.6rem;
+      font-size: 1.9rem;
       font-family: Satoshi;
     }
   `

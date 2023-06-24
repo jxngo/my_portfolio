@@ -19,14 +19,9 @@ function Skills() {
         padding-left: 3rem;
         font-family: Satoshi;
         color: #4b4342;
-        font-size: 1rem;
-        
-        @media screen and (max-width: 500px) {
-          font-size: 3rem;
-        }
+        font-size: 3rem;
     }
 
-    
     
     @media (min-width: 1180px) {
         display: fixed;
