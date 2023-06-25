@@ -59,7 +59,7 @@ function Navbar() {
       font-size: 2.2rem;
       font-family: Satoshi;
       @media (min-width: 425px) {
-        font-size: 1rem;
+        font-size: 2.5rem;
         
       }
     }
