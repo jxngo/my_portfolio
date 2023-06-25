@@ -19,7 +19,9 @@ function Skills() {
         padding-left: 3rem;
         font-family: Satoshi;
         color: #4b4342;
-        font-size: 1rem;
+        font-size: 3rem;
+        
+        width: 55rem;
     }
 
     
@@ -36,7 +38,7 @@ function Skills() {
     }
     progress::-webkit-progress-bar {
         height: 0.2rem;
-        width: 56rem;
+        width: 53rem;
     }
     progress::-webkit-progress-value {
         background-color: #372E2D;

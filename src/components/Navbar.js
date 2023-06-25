@@ -10,26 +10,30 @@ function Navbar() {
   const NavContainer = styled.div `
     margin-top: 3rem;
     font-family: Satoshi;
+    width: 58rem;
   `
   const SpeakerDiv = styled.div`
     img {
       margin-top: 5rem;
       width: 50rem;
+      
     }
   `
   const NavBar = styled.div `
+    padding-bottom: 2rem;
     ul {
       list-style-type: none;
       display: flex; 
+      justify-content: space-between; 
     }
     li {
-      padding: 1rem;
+      margin-right: 2rem;
+      padding-left: 1rem;
     }
     button {
       border: none;
       border-radius: 50%;
       padding: 1rem;
-      margin-left: 1.2rem;
     }
     a{
       color: transparent;
@@ -40,17 +44,24 @@ function Navbar() {
   `
   const LabelDiv = styled.div`
     margin-top: 4rem; 
+   
     ul {
-      margin-right: 1rem;
-      display: inline;
+      display: flex;
+      justify-content: space-around;
+      list-style: none;
+      padding-bottom: 2rem;
     }
     li {
-      padding: 0rem 2.5rem;     
-      display: inline;
+      margin-right: 2rem;
+      padding-left: 2rem;
     }
     text{
-      font-size: 0.7rem;
+      font-size: 2.2rem;
       font-family: Satoshi;
+      @media (min-width: 425px) {
+        font-size: 1rem;
+        
+      }
     }
   `
   const Button1 = styled.button`
@@ -93,14 +104,16 @@ function Navbar() {
   `
   const ButtonDiv = styled.div`
       margin-top: 2rem;
+      margin-left: 3rem;
+
       flex: 1;
       text {
-        font-size: 2rem;
+        font-size: 2.2rem;
         font-family: Satoshi;
       }
       button {
         box-shadow: 0px -1px 5px 2px #1c1c1c;
-         margin-top: 1.5rem;
+        margin-top: 1.5rem;
         width: 13rem; 
         height: 13rem;
         border-radius: 10%;
@@ -118,9 +131,10 @@ function Navbar() {
   const SocialDiv = styled.div`
       flex: 1;
       margin-top: 3rem;
+      
       div {
         margin-top: 2.5rem;
-        margin-left: 5rem;
+        margin-left: 4rem;
         width: 32.8rem;
         height: 8.1rem;
         border: 0.1rem solid #1c1c1c;
@@ -152,8 +166,9 @@ function Navbar() {
         border-radius: 50%;
       }
       ul {
-        display: inline;
-        margin-right: 1.8rem;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 2rem;
       }
       li {
         display: inline;
@@ -165,8 +180,7 @@ function Navbar() {
       <SpeakerDiv>
         <img src={speaker} alt="speaker"></img>
       </SpeakerDiv>
-      <NavBar>
-        <LabelDiv>
+      <LabelDiv>
           <ul>
             <li><text>About</text></li>
             <li><text>Skills</text></li>
@@ -174,7 +188,8 @@ function Navbar() {
             <li><text>Work</text></li>
             <li><text>Contact</text></li>
           </ul>
-        </LabelDiv>
+      </LabelDiv>
+      <NavBar>
         <div>
           <ul>
             <li><Button1><a href="#about"> </a></Button1></li>

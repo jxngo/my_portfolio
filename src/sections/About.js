@@ -19,7 +19,7 @@ function About() {
       font-size: 3rem;
       font-family: Satoshi;
       color: #4b4342;
-      width: 57rem;
+      width: 54rem;
     }
   `
   
