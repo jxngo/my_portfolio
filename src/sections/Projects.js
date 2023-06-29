@@ -1,12 +1,9 @@
 import React from 'react';
 import styled from '@emotion/styled';
-
-
-// import image_name from '../assets/image_name.jpg'
+import Slider from '../components/Slider';
 
 function Projects() {
   const ProjectsContainer = styled.div`
-    
     h1 {
       text-align: left;
       color: #BF1B1B;
@@ -47,6 +44,7 @@ function Projects() {
       <FlexContainer>
         <FlexChild>
           <h2>Web</h2>
+          <Slider></Slider>
           <ProjectContainer>
           </ProjectContainer>
         </FlexChild>
