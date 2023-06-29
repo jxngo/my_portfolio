@@ -16,7 +16,6 @@ function Navbar() {
     img {
       margin-top: 5rem;
       width: 50rem;
-      
     }
   `
   const FlexContainer = styled.div `
