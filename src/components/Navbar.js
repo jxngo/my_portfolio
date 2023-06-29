@@ -28,7 +28,7 @@ function Navbar() {
       flex: 1;
       text {
         font-size: 1.8rem;
-        font-family: Satoshi;
+        
       }
       button {
         box-shadow: 0px -2px 5px 2px #1c1c1c;
@@ -103,16 +103,18 @@ function Navbar() {
 
     const ButtonsDiv = styled.div `
       margin-top: 5rem;
-      display: flex;
-      justify-content: space-evenly;
+     
       width: 55rem;
       margin-left: 2rem;
-      
+      div {
+        display: flex;
+        justify-content: space-evenly;
+      }
       text{
+        padding-left: 1.5rem;
         font-size: 1.8rem;
-        font-family: Satoshi;
         @media (min-width: 425px) {
-          font-size: 2.5rem; 
+          font-size: 2rem; 
         }
       }
       button {
@@ -172,22 +174,16 @@ function Navbar() {
       <ButtonsDiv>
         <div>
           <text>ABOUT</text>
-          <Button1><a href="#about"> </a></Button1>
-        </div>
-        <div>
           <text>SKILLS</text>
-          <Button2><a href="#skills"> </a></Button2>
-        </div>
-        <div>
           <text>PROJECTS</text>
-          <Button3><a href="#projects"> </a></Button3>
-        </div>
-        <div>
           <text>WORK</text>
-          <Button4><a href="#experiences"> </a></Button4>
+          <text>CONTACT</text>
         </div>
         <div>
-          <text>CONTACT</text>
+          <Button1><a href="#about"> </a></Button1>
+          <Button2><a href="#skills"> </a></Button2>
+          <Button3><a href="#projects"> </a></Button3>
+          <Button4><a href="#experiences"> </a></Button4>
           <Button5><a href="#contact"> </a></Button5>
         </div>
       </ButtonsDiv>
