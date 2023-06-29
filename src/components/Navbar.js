@@ -108,10 +108,10 @@ function Navbar() {
       width: 55rem;
       margin-left: 2rem;
       text{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         font-family: Satoshi;
         @media (min-width: 425px) {
-          font-size: 2.5rem; 
+          font-size: 1.8rem; 
         }
       }
       button {
