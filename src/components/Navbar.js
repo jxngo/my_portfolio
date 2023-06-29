@@ -103,11 +103,11 @@ function Navbar() {
 
     const ButtonsDiv = styled.div `
       margin-top: 5rem;
-      display: flex;
-      justify-content: center;
-      
+      display: inline-flex;
+      align-items: flex-start;      
       
       text{
+        
         font-size: 1.5rem;
         font-family: Satoshi;
         @media (min-width: 425px) {
