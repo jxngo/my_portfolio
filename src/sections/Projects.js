@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import Slider from '../components/Slider';
+//import Slider from '../components/Slider';
 
 function Projects() {
   const ProjectsContainer = styled.div`
