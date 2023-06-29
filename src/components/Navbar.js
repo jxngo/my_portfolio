@@ -104,14 +104,14 @@ function Navbar() {
     const ButtonsDiv = styled.div `
       margin-top: 5rem;
       display: flex;
-      justify-content: space-evenly;
-      width: 55rem;
-      margin-left: 2rem;
+      justify-content: center;
+      
+      
       text{
         font-size: 1.5rem;
         font-family: Satoshi;
         @media (min-width: 425px) {
-          font-size: 1.8rem; 
+          font-size: 1.5rem; 
         }
       }
       button {
