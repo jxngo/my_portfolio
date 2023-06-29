@@ -170,24 +170,24 @@ function Navbar() {
       </SpeakerDiv>
       <ButtonsDiv>
         <div>
-         
+          <text>ABOUT</text>
           <Button1><a href="#about"> </a></Button1>
         </div>
         <div>
-          
+          <text>SKILLS</text>
           <Button2><a href="#skills"> </a></Button2>
         </div>
         <div>
-          
+          <text>PROJECTS</text>
           <Button3><a href="#projects"> </a></Button3>
         </div>
         <div>
-          
+          <text>WORK</text>
           <Button4><a href="#experiences"> </a></Button4>
         </div>
         <div>
-       
-        <Button5><a href="#contact"> </a></Button5>
+          <text>CONTACT</text>
+          <Button5><a href="#contact"> </a></Button5>
         </div>
       </ButtonsDiv>
       
@@ -200,7 +200,6 @@ function Navbar() {
             <li> <img src={Spotify_logo} alt='spotify'></img></li>
           </ul>
           <div>
-
             <button>
               <a href="https://github.com/jxngo" target="_blank" rel="noopener noreferrer"><span></span></a>
             </button>
@@ -214,7 +213,6 @@ function Navbar() {
               <a href="https://open.spotify.com/user/jzngo?si=b23d3566f7184ced" target="_blank" rel="noopener noreferrer"><span></span></a>
             </button>
           </div>
-
         </SocialDiv>
         <ButtonDiv>
           <div>
