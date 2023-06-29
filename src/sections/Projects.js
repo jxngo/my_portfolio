@@ -40,7 +40,7 @@ function Projects() {
       <FlexContainer>
         <FlexChild>
           <h2>Web</h2>
-          <Slider></Slider>
+          
           <ProjectContainer>
           </ProjectContainer>
         </FlexChild>
