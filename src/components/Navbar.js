@@ -106,7 +106,6 @@ function Navbar() {
       display: flex;
       justify-content: center;
       
-      
       text{
         font-size: 1.5rem;
         font-family: Satoshi;
