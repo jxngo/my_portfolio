@@ -168,23 +168,23 @@ function Navbar() {
       </SpeakerDiv>
       <ButtonsDiv>
         <div>
-          <text>ABOUT</text>
+          <span>ABOUT</span>
           <Button1><a href="#about"> </a></Button1>
         </div>
         <div>
-          <text>SKILLS</text>
+          <span>SKILLS</span>
           <Button2><a href="#skills"> </a></Button2>
         </div>
         <div>
-          <text>PROJECTS</text>
+          <span>PROJECTS</span>
           <Button3><a href="#projects"> </a></Button3>
         </div>
         <div>
-          <text>WORK</text>
+          <span>WORK</span>
           <Button4><a href="#experiences"> </a></Button4>
         </div>
         <div>
-          <text>CONTACT</text>
+          <span>CONTACT</span>
           <Button5><a href="#contact"> </a></Button5>
         </div>
       </ButtonsDiv>
