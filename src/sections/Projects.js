@@ -23,14 +23,10 @@ function Projects() {
   `
 
   const FlexContainer = styled.div `
-    @media (min-width: 1180px) {
-      display:flex;
-    }
+   
   `
   const FlexChild = styled.div `
-    @media (min-width: 1180px) {
-      flex: 1;
-    } 
+    
     color: white;
     font-family: Satoshi;
   `

@@ -25,11 +25,6 @@ function Skills() {
     }
 
     
-    @media (min-width: 1180px) {
-        display: fixed;
-        font-size: 3rem;
-    }
-
     progress {
         padding-left: 3rem;
         display: block;
