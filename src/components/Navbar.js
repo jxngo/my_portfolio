@@ -107,7 +107,11 @@ function Navbar() {
       justify-content: center;
       
       
-      
+      text{
+        font-size: 1.5rem;
+        font-family: Satoshi;
+        
+      }
       button {
         margin-top: 2rem;  
         border: none;
