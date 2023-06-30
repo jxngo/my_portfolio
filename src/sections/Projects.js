@@ -4,6 +4,7 @@ import Slider from '../components/Slider';
 
 function Projects() {
   const ProjectsContainer = styled.div`
+    
     h1 {
       text-align: left;
       color: #BF1B1B;
@@ -15,18 +16,28 @@ function Projects() {
     }
 
     h2 {
+      
       font-size: 5rem;
       color:#4b4342;
       width: 46rem;
       margin-left: 7rem;
+      @media screen and (min-width: 1440px) and (max-width: 2559px){
+       font-size: 6rem;
+       margin-left: 16rem;
+        width: 70rem;
+      }
     }
   `
 
   const FlexContainer = styled.div `
-   
+    @media screen and (min-width: 1440px) and (max-width: 2559px){
+      
+    }
   `
   const FlexChild = styled.div `
-    
+    @media screen and (min-width: 1440px) and (max-width: 2559px){
+        
+    }
     color: white;
     font-family: Satoshi;
   `

@@ -20,11 +20,21 @@ function Skills() {
         font-family: Satoshi;
         color: #4b4342;
         font-size: 3rem;
-        
         width: 55rem;
+        @media screen and (min-width: 1440px) and (max-width: 2559px){
+          font-size: 2.5rem;
+          width: 50rem;
+        }
     }
-
-    
+    @media screen and (min-width: 1440px) and (max-width: 2559px){
+        display: flex; 
+    }
+    div {
+      @media screen and (min-width: 1440px) and (max-width: 2559px){
+         flex: 1; 
+         width: 50rem;
+      }
+    }
     progress {
         padding-left: 3rem;
         display: block;
@@ -34,6 +44,9 @@ function Skills() {
     progress::-webkit-progress-bar {
         height: 0.2rem;
         width: 53rem;
+        @media screen and (min-width: 1440px) and (max-width: 2559px){
+          width: 45rem;
+        }
     }
     progress::-webkit-progress-value {
         background-color: #372E2D;

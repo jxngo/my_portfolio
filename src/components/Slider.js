@@ -17,8 +17,6 @@ import MTL from '../assets/project-cover/MTL.jpg';
 export const Slider = () => {
 
 
-
-
     return (
             <Swiper    
                 modules={[Navigation, Pagination, Scrollbar, A11y]}

@@ -5,6 +5,7 @@ function About() {
   const AboutContainer = styled.div`
     margin-top: 10rem;
     text-align: left;
+    
     h1 {
       margin-top: 2rem;
       color: #Ed8008;
@@ -20,6 +21,9 @@ function About() {
       font-family: Satoshi;
       color: #4b4342;
       width: 54rem;
+      @media screen and (min-width: 1440px) and (max-width: 2559px){
+          width: 100rem;
+      }
     }
   `
   

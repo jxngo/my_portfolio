@@ -11,11 +11,33 @@ function Navbar() {
     margin-top: 3rem;
     font-family: Satoshi;
     width: 58rem;
+    @media screen and (min-width: 1440px) and (max-width: 2559px){
+      width: 100rem;
+      display: flex;
+      margin-top: 5rem;
+    }
+  `
+  const AllButtonsDiv = styled.div `
+    @media screen and (min-width: 1440px) and (max-width: 2559px){
+      flex: 1;
+      margin-top: 10rem;
+    }
+  
   `
   const SpeakerDiv = styled.div`
     img {
       margin-top: 5rem;
       width: 50rem;
+      @media screen and (min-width: 1024px) and (max-width: 1439px){
+        width: 40rem;
+        margin-top: 0rem;
+      }
+      @media screen and (min-width: 1440px) and (max-width: 2559px){
+        width: 50rem;
+        flex: 1;
+        margin-top: 0rem;
+        margin-left: 2rem;
+      }
     }
   `
   const FlexContainer = styled.div `
@@ -26,9 +48,19 @@ function Navbar() {
       margin-top: 2rem;
       margin-left: 3rem;
       flex: 1;
+      @media screen and (min-width: 1440px) and (max-width: 2559px){
+        margin-top: 3rem;
+        margin-left: 0rem;
+        
+      }
       text {
         font-size: 1.8rem;
-        
+        @media screen and (min-width: 1440px) and (max-width: 2559px){
+          position: absolute;
+          width: 9rem;
+          font-size: 1.2rem;
+          
+        }
       }
       button {
         box-shadow: 0px -2px 5px 2px #1c1c1c;
@@ -38,6 +70,11 @@ function Navbar() {
         border-radius: 10%;
         background-color: #AAB7BF;
         border: none;
+        @media screen and (min-width: 1440px) and (max-width: 2559px){
+          width: 9rem;
+          height: 9rem;
+          margin-top: 4rem;
+        }
       }
       span {
         height: 11rem;
@@ -47,11 +84,16 @@ function Navbar() {
         border-radius: 50%;
         display: inline-block;
         border: 0.01rem solid #bbc5cb;
+        @media screen and (min-width: 1440px) and (max-width: 2559px){
+          width: 7rem;
+          height: 7rem;
+        }
       }
     `
   const SocialDiv = styled.div`
       flex: 1;
       margin-top: 3rem;
+      
       div {
         margin-top: 2rem;
         margin-left: 4rem;
@@ -62,6 +104,11 @@ function Navbar() {
         position: relative;
         box-shadow: 0px -2px 2px 1px #1c1c1c;
         background-color: #454545;
+        @media screen and (min-width: 1440px) and (max-width: 2559px){
+          width: 24.8rem;
+          height: 6.2rem;
+          margin-left: 10rem;
+        }
       }
       button {
         margin: 0rem 0.1rem;
@@ -70,6 +117,10 @@ function Navbar() {
         border-radius: 10%;
         background-color: #5a7b95;
         border: 1px solid #888;
+        @media screen and (min-width: 1440px) and (max-width: 2559px){
+          width: 6rem;
+          height: 6rem;
+        }
       }
       span {
         height: 6rem;
@@ -79,6 +130,10 @@ function Navbar() {
         border-radius: 50%;
         display: inline-block;
         border: 0.01rem solid #98adbd;
+        @media screen and (min-width: 1440px) and (max-width: 2559px){
+          width: 4rem;
+          height: 4rem;
+        }
         
       }
       a {
@@ -86,26 +141,39 @@ function Navbar() {
         
       }
       img {
-        
         width: 4rem;
         border-radius: 50%;
+        @media screen and (min-width: 1440px) and (max-width: 2559px){
+          width: 2.5rem;
+        }
       }
       ul {
         display: flex;
         justify-content: space-between;
         margin-right: 2rem;
+        @media screen and (min-width: 1440px) and (max-width: 2559px){
+          
+          margin-left: 6.7rem;
+        }
       }
       li {
         display: inline;
         padding-left: 4rem;
+        @media screen and (min-width: 1440px) and (max-width: 2559px){
+          padding-left: 3rem;
+        }
       }
     `
 
     const ButtonsDiv = styled.div `
       margin-top: 5rem;
-     
       width: 55rem;
       margin-left: 2rem;
+      @media screen and (min-width: 1440px) and (max-width: 2559px){
+          width: 40rem;
+          margin-left: 8rem;
+          margin-top: 1rem;
+      }
       div {
         display: flex;
         justify-content: space-evenly;
@@ -116,18 +184,26 @@ function Navbar() {
         @media (min-width: 425px) {
           font-size: 2rem; 
         }
+        @media screen and (min-width: 1440px) and (max-width: 2559px){
+          font-size: 1rem;
+          margin-right: 0.5rem;
+        }
       }
       button {
         margin-top: 2rem;  
         border: none;
         border-radius: 50%;
         padding: 1rem;
+        @media screen and (min-width: 1440px) and (max-width: 2559px){
+          padding: 0rem;
+        }
       }
       a{
         color: transparent;
         display: inline-block;
         border-radius: 50%;
         padding: 3rem;
+
       }
     `
     const Button1 = styled.button`
@@ -165,63 +241,67 @@ function Navbar() {
         background: #736356;
       }
     `
+  
 
   return (
     <NavContainer>
       <SpeakerDiv>
         <img src={speaker} alt="speaker"></img>
       </SpeakerDiv>
-      <ButtonsDiv>
-        <div>
-          <text>ABOUT</text>
-          <text>SKILLS</text>
-          <text>PROJECTS</text>
-          <text>WORK</text>
-          <text>CONTACT</text>
-        </div>
-        <div>
-          <Button1><a href="#about"> </a></Button1>
-          <Button2><a href="#skills"> </a></Button2>
-          <Button3><a href="#projects"> </a></Button3>
-          <Button4><a href="#experiences"> </a></Button4>
-          <Button5><a href="#contact"> </a></Button5>
-        </div>
-      </ButtonsDiv>
       
-      <FlexContainer>
-        <SocialDiv>
-          <ul>
-            <li> <img src={Github_logo} alt='github'></img></li>
-            <li> <img src={Linkedin_logo} alt='linkedin'></img></li>
-            <li> <img src={Instagram_logo} alt='instagram'></img></li>
-            <li> <img src={Spotify_logo} alt='spotify'></img></li>
-          </ul>
+      <AllButtonsDiv>
+        <ButtonsDiv>
           <div>
-            <button>
-              <a href="https://github.com/jxngo" target="_blank" rel="noopener noreferrer"><span></span></a>
-            </button>
-            <button>
-              <a href="https://www.linkedin.com/in/johnnyhngo/" target="_blank" rel="noopener noreferrer"><span></span></a>
-            </button>
-            <button>
-              <a href="https://www.instagram.com/jzngo/" target="_blank" rel="noopener noreferrer"><span></span></a>
-            </button>
-            <button>
-              <a href="https://open.spotify.com/user/jzngo?si=b23d3566f7184ced" target="_blank" rel="noopener noreferrer"><span></span></a>
-            </button>
+            <text>ABOUT</text>
+            <text>SKILLS</text>
+            <text>PROJECTS</text>
+            <text>WORK</text>
+            <text>CONTACT</text>
           </div>
-        </SocialDiv>
-        <ButtonDiv>
           <div>
-            <text>DL CV</text>
-            <a href="/resume/JNResume.pdf" download>
+            <Button1><a href="#about"> </a></Button1>
+            <Button2><a href="#skills"> </a></Button2>
+            <Button3><a href="#projects"> </a></Button3>
+            <Button4><a href="#experiences"> </a></Button4>
+            <Button5><a href="#contact"> </a></Button5>
+          </div>
+        </ButtonsDiv>
+
+        <FlexContainer>
+          <SocialDiv>
+            <ul>
+              <li> <img src={Github_logo} alt='github'></img></li>
+              <li> <img src={Linkedin_logo} alt='linkedin'></img></li>
+              <li> <img src={Instagram_logo} alt='instagram'></img></li>
+              <li> <img src={Spotify_logo} alt='spotify'></img></li>
+            </ul>
+            <div>
               <button>
-                <span></span>
+                <a href="https://github.com/jxngo" target="_blank" rel="noopener noreferrer"><span></span></a>
               </button>
-            </a>
-          </div>
-        </ButtonDiv>
-      </FlexContainer>
+              <button>
+                <a href="https://www.linkedin.com/in/johnnyhngo/" target="_blank" rel="noopener noreferrer"><span></span></a>
+              </button>
+              <button>
+                <a href="https://www.instagram.com/jzngo/" target="_blank" rel="noopener noreferrer"><span></span></a>
+              </button>
+              <button>
+                <a href="https://open.spotify.com/user/jzngo?si=b23d3566f7184ced" target="_blank" rel="noopener noreferrer"><span></span></a>
+              </button>
+            </div>
+          </SocialDiv>
+          <ButtonDiv>
+            <div>
+              <text>DL CV</text>
+              <a href="/resume/JNResume.pdf" download>
+                <button>
+                  <span></span>
+                </button>
+              </a>
+            </div>
+          </ButtonDiv>
+        </FlexContainer>
+      </AllButtonsDiv>
     </NavContainer>
   )
 }

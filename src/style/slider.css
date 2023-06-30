@@ -2,5 +2,12 @@
     width: 50rem;
     margin-left: 4rem;
     height: 35rem;   
+
+    @media screen and (min-width: 1440px) and (max-width: 2559px) {
+            width: 70rem;
+            height: 70rem;
+            margin-left: 16rem;
+    }
     
 }
+
