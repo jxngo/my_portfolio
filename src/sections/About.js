@@ -45,6 +45,7 @@ function About() {
           In my free time, I love to play competitive badminton as a way to stay active.
           I engage in various creative pursuits such as art, fashion, and music. 
           I enjoy sewing, djing, playing my classical guitar, collecting vinyl records, and curating playlists.
+          My passion in music and technology led to my most recent and viral personal project, Pokify. Pokify uses SpotifyAPI to grab user's top 6 artists and pair them with corresponding pokemon types with use of AI tools.
         </p>
       </div>
      </AboutContainer>
