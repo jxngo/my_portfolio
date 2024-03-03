@@ -28,8 +28,8 @@ function App() {
     <main>
       <section id="about"><About></About></section>
       <section id="skills"><Skills></Skills></section>
-      <section id="projects"><Projects></Projects></section>
-      <section id="experiences"><Experiences></Experiences></section>
+      {/* <section id="projects"><Projects></Projects></section>
+      <section id="experiences"><Experiences></Experiences></section> */}
       <section id="contact"><Contact></Contact></section>
     </main>
     </AppContainer>

@@ -44,8 +44,7 @@ function About() {
         <p>
           In my free time, I love to play competitive badminton as a way to stay active.
           I engage in various creative pursuits such as art, fashion, and music. 
-          My passion in music and technology allows me to create electronic ambient music through coding. 
-          I enjoy playing my classical guitar, collecting vinyl records, and curating playlists.
+          I enjoy sewing, djing, playing my classical guitar, collecting vinyl records, and curating playlists.
         </p>
       </div>
      </AboutContainer>
