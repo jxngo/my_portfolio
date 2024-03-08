@@ -1,0 +1,7 @@
+.mainButtonDiv {
+    display: flex;
+    flex-direction: column;
+    text {
+        padding-right: 1.5rem;
+    }
+}

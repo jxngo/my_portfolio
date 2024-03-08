@@ -81,7 +81,9 @@ export const Slider = () => {
                         ))}
                     </div>
                 </Swiper>
-                : project.embedded ? <embed src={R1}></embed>: null}
+                : project.embedded ? 
+                
+                <div className='embedDiv'><embed className='embedPDF' src={R1}></embed></div>: null}
 
                 </div>
             

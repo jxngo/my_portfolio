@@ -2,6 +2,8 @@ import React from 'react';
 import styled from '@emotion/styled';
 import Slider from '../components/Slider';
 
+
+
 function Projects() {
   const ProjectsContainer = styled.div`
     h1 {
@@ -35,7 +37,7 @@ function Projects() {
     }
     p {
       padding-left: 5rem;
-      text-align: left;
+      text-align: center;
       font-size: 2rem;
       font-family: Satoshi;
       color: #4b4342;

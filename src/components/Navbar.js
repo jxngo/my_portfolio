@@ -5,6 +5,8 @@ import Github_logo from '../assets/social-icons/github.svg';
 import Linkedin_logo from '../assets/social-icons/linkedin.svg';
 import Instagram_logo from '../assets/social-icons/instagram.svg';
 import Spotify_logo from '../assets/social-icons/spotify.svg';
+import '../style/style.css'
+
 
 function Navbar() {
   const NavContainer = styled.div `
@@ -248,21 +250,34 @@ function Navbar() {
       <SpeakerDiv>
         <img src={speaker} alt="speaker"></img>
       </SpeakerDiv>
+
       <AllButtonsDiv>
         <ButtonsDiv>
           <div>
-            <text>ABOUT</text>
-            <text>SKILLS</text>
-            <text>PROJECTS</text>
-            <text>WORK</text>
-            <text>CONTACT</text>
-          </div>
-          <div>
-            <Button1><a href="#about"> </a></Button1>
-            <Button2><a href="#skills"> </a></Button2>
-            <Button3><a href="#projects"> </a></Button3>
-            <Button4><a href="#experiences"> </a></Button4>
-            <Button5><a href="#contact"> </a></Button5>
+            <div className='mainButtonDiv'>
+              <div className='mainButtonTxtDiv'><text>ABOUT</text> </div>
+              <div><Button1><a href="#about"> </a></Button1> </div>
+            </div>
+
+            <div className='mainButtonDiv'>
+              <div><text>SKILLS</text></div>
+              <div><Button2><a href="#skills"> </a></Button2></div>
+            </div>
+
+            <div className='mainButtonDiv'>
+              <div><text>PROJECTS</text></div>
+              <div><Button3><a href="#projects"> </a></Button3></div>
+            </div>
+
+            <div className='mainButtonDiv'>
+              <div><text>WORK</text></div>
+              <div><Button4><a href="#experiences"> </a></Button4></div>
+            </div>
+
+            <div className='mainButtonDiv'>
+              <div><text>CONTACT</text></div>
+              <div><Button5><a href="#contact"> </a></Button5></div>
+            </div>
           </div>
         </ButtonsDiv>
         <FlexContainer>
