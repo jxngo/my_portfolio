@@ -19,10 +19,10 @@ function Skills() {
         padding-left: 3rem;
         font-family: Satoshi;
         color: #4b4342;
-        font-size: 3rem;
+        font-size: 2rem;
         width: 55rem;
         @media screen and (min-width: 1440px) and (max-width: 2559px){
-          font-size: 2.5rem;
+          font-size: 1.7rem;
           width: 50rem;
         }
     }
@@ -61,13 +61,13 @@ function Skills() {
         <SkillsDiv>
         <div>
             <body>
-              Languages: C | Java | JavaScript
+              Languages: C | Java | JavaScript | Python | SQL | PHP
             </body>
             <div>
              <progress value="100" max="100%" ></progress>
             </div>
             <body>
-              Front-End: React | D3 | HTML | CSS
+              Frameworks: React | NodeJS | Express | Jest
             </body>
             <div>
             <progress value="100" max="100%" ></progress>
@@ -75,13 +75,13 @@ function Skills() {
           </div>
           <div>
             <body>
-              Databases: SQL | MongoDB
+              Developer: Git | Jira | Postman | Tableau | Figma | MongoDB
             </body>
             <div>
             <progress value="100" max="100%" ></progress>
             </div>
             <body>
-              Backend: Express | Node | Git | Rest API
+              Cloud Infrastructure: AWS (Lambda, EC2, SNS) | Terraform
             </body>
             <div>
             <progress value="100" max="100%" ></progress>

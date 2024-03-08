@@ -4,7 +4,6 @@ import Slider from '../components/Slider';
 
 function Projects() {
   const ProjectsContainer = styled.div`
-    
     h1 {
       text-align: left;
       color: #BF1B1B;
@@ -16,49 +15,43 @@ function Projects() {
     }
 
     h2 {
-      
-      font-size: 5rem;
+      font-size: 4rem;
+      font-family: Satoshi;
       color:#4b4342;
       width: 46rem;
       margin-left: 7rem;
+      a {
+        text-decoration: none;
+      }
+      a:visited { text-decoration: none; color:#4b4342; }
+      a:hover { color:#BF1B1B; }
+      
+      
       @media screen and (min-width: 1440px) and (max-width: 2559px){
-       font-size: 6rem;
-       margin-left: 16rem;
+        font-size: 6rem;
+        margin-left: 16rem;
         width: 70rem;
       }
     }
+    p {
+      padding-left: 5rem;
+      text-align: left;
+      font-size: 2rem;
+      font-family: Satoshi;
+      color: #4b4342;
+      width: 45rem;
+      @media screen and (min-width: 1440px) and (max-width: 2559px){
+          width: 70rem;
+          padding-left: 17rem;
+      }
   `
 
-  const FlexContainer = styled.div `
-    @media screen and (min-width: 1440px) and (max-width: 2559px){
-      
-    }
-  `
-  const FlexChild = styled.div `
-    @media screen and (min-width: 1440px) and (max-width: 2559px){
-        
-    }
-    color: white;
-    font-family: Satoshi;
-  `
-  const ProjectContainer = styled.div `
-  
-  ` 
+ 
 
   return (
     <ProjectsContainer>
       <h1>{'>'}Projects</h1>
-      <FlexContainer>
-        <FlexChild>
-          <h2>Web</h2>
           <Slider></Slider>
-          <ProjectContainer>
-          </ProjectContainer>
-        </FlexChild>
-        <FlexChild>
-          <h2>Audio & Visual</h2>
-        </FlexChild>
-      </FlexContainer>
     </ProjectsContainer>
   )
 }
