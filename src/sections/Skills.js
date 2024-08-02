@@ -61,13 +61,13 @@ function Skills() {
         <SkillsDiv>
         <div>
             <body>
-              Languages: C | Java | JavaScript | Python | SQL | PHP
+              Languages: C# | Java | JavaScript | SQL
             </body>
             <div>
              <progress value="100" max="100%" ></progress>
             </div>
             <body>
-              Frameworks: React | NodeJS | Express | Jest
+              Frameworks: React | Express | Node.js | .NET
             </body>
             <div>
             <progress value="100" max="100%" ></progress>
@@ -75,7 +75,7 @@ function Skills() {
           </div>
           <div>
             <body>
-              Developer: Git | Jira | Postman | Tableau | Figma | MongoDB
+              Developer: Git | Docker | AzureDevOps | MSSQL
             </body>
             <div>
             <progress value="100" max="100%" ></progress>

@@ -42,9 +42,8 @@ function About() {
           development. In addition I've also led a team of five undergraduate researchers in a concurrent algorithmic research. 
         </p>
         <p>
-          In my free time, I love to play competitive badminton as a way to keep myself stay active and energized.
-          Exploring various creative outlets such as art, fashion, and music brings me content. 
-          I enjoy sewing, DJing, playing classical guitar, collecting vinyl records, and curating playlists.
+          In my free time, I love to cycle as a way to keep myself stay active and energized.
+          I enjoy exploring various creative outlets such as fashion, DJing, playing classical guitar, collecting vinyl records, and curating playlists.
         </p>
         <p>
           I am a big advocate in the value of continuous learning. Each new day I strive to learn even if it's small or little.
